@@ -14,13 +14,10 @@ final class ViewController: UIViewController {
         redColorView.alpha = 0.5
         redColorView.layer.cornerRadius =
         redColorView.frame.width / 2
-        redColorView.clipsToBounds = true
         yellowColorView.alpha = 0.5
         yellowColorView.layer.cornerRadius = yellowColorView.frame.width / 2
-        yellowColorView.clipsToBounds = true
         greenColorView.alpha = 0.5
         greenColorView.layer.cornerRadius = greenColorView.frame.width / 2
-        greenColorView.clipsToBounds = true
         
         startButten.layer.cornerRadius = 10
     }
